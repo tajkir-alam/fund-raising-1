@@ -54,7 +54,7 @@ button{
 
 /* Header Section Start */
 header{
-    background-image: url(images/header-banner.jpg), linear-gradient(360deg, #1f1e1e 100%, rgba(18, 18, 18, 0) 100%);;
+    background-image: url(images/header-banner.jpg), linear-gradient(360deg, #1f1e1e 100%, rgba(255, 0, 0, 0) 100%);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
