@@ -224,3 +224,25 @@ hr{
     padding: 15px 35px;
 }
 /* News Latter Section End */
+
+/* Footer Section Start */
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 50px 0px;
+}
+.footer-title{
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #FF5959;    
+}
+.footer-short-title{
+    margin-top: 2%;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+/* Footer Section End */
