@@ -1,0 +1,121 @@
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Style */
+h1{
+    font-family: 'Inter', sans-serif;
+}
+button{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    font-size: 20px;
+    font-weight: 600;
+    background: #FF5959;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+}
+.default-margin{
+    margin-top: 10%;
+}
+.common-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #121212;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.common-description{
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.common-description-width{
+    padding: 0px 350px;
+}
+
+/* Header Section Start */
+header{
+    background-image: url(images/header-banner.jpg), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    text-align: center;
+    padding: 180px 300px;
+    width: 100%;
+}
+.banner-content .banner-title{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.banner-content .banner-description{
+    font-weight: 400;
+    color: white;
+    padding: 0px 50px;
+    margin-bottom: 30px;
+}
+/* Header Section End */
+
+/* Donation Section Start */
+.fund-container{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+.fund-container .fund-content{
+    background: #FAFAFA;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+.fund-container .fund-content:hover{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.fund-container .fund-content > h4{
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070; 
+    padding: 45px 25px;
+}
+.amounts .fund-input{
+    text-align: center;
+}
+.amounts .fund-input input{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #B3B3B3;
+    border: none;
+    margin-bottom: 20px;
+}
+hr{
+    width: 60%;
+    margin: 0 auto 30px auto;
+    border-bottom: none;
+    border-top: 1px solid #DADADA;
+    
+}
