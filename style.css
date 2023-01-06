@@ -191,5 +191,36 @@ hr{
 .contribute .right-contribute{
     width: 50%;
 }
-
 /* Contribute section End */
+
+/* News Latter Section Start */
+.subscribe{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 60%;
+    background: #fff4d6;
+    padding: 70px 150px;
+}
+.subscribe .secondary-input{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    color: #AA9F9F;
+    background: #D9D9D9;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 15px 80px 15px 20px;
+}
+.subscribe .secondary-btn{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-align: center;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    padding: 15px 35px;
+}
+/* News Latter Section End */
