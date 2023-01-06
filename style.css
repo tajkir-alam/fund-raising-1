@@ -123,5 +123,73 @@ hr{
     margin: 0 auto 30px auto;
     border-bottom: none;
     border-top: 1px solid #DADADA;
-    
 }
+/* Donation Section End */
+
+/* Donation Plan Section Start */
+.card{
+    display: flex;
+    gap: 50px;
+    margin: 0px 150px;
+}
+.card .card-container{
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.card .card-food{
+    background: #edf5f6;
+}
+.card .card-shelter{
+    background: #ffeeee
+}
+.card .card-child{
+    background: #fff4d6
+}
+.card .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+    margin: 25px 0px 20px 0px;
+}
+.card .card-description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 15px;
+}
+/* Donation Plan Section End */
+
+/* Contribute section start */
+.contribute{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 10% 150px;
+}
+    /* Common thing in this card start */
+.contribute-title{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+.contribute-description{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #707070;
+    margin: 20px 0px;
+}
+.contribute-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+    /* Common thing in this card end */
+.contribute .left-contribute{
+    max-width: 50%;
+}
+.contribute .right-contribute{
+    width: 50%;
+}
+
+/* Contribute section End */
