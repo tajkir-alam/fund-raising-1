@@ -90,6 +90,7 @@ header{
     cursor: pointer;
     margin-bottom: 60px;
     border: 2px solid transparent;
+    transition: .5s;
 }
 .fund-container .fund-content:hover{
     background: #FFEEEE;
